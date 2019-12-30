@@ -607,13 +607,13 @@ PRODUCTS
     font-size: 10px;
   }
 
-  #works .card:nth-child(2n+1):nth-last-child(-n+2),
-  #works .card:nth-child(2n+1):nth-last-child(-n+2)~div {
+  #products .card:nth-child(2n+1):nth-last-child(-n+2),
+  #products .card:nth-child(2n+1):nth-last-child(-n+2)~div {
     margin-bottom: 0;
   }
 
-  #works .card {
-    flex-basis: 48%;
+  #products .card {
+    flex-basis: 100%;
     margin-bottom: 30px;
   }
 
@@ -634,6 +634,17 @@ PRODUCTS
   #about .section-image {
     flex-basis: 100px;
     margin: 0 auto 20px;
+  }
+  
+  #about .section-text-title {
+    font-size: x-small;
+    line-height: 260%;
+    margin-right: 15px;
+  }
+  
+  #about .section-text-line {
+    font-size: small;
+    line-height: 200%;
   }
 
   #skill .card-wrapper {
