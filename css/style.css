@@ -600,11 +600,17 @@ PRODUCTS
   }
 
   .card-caption {
-    text-align: left;
+    text-align: center;
   }
 
   .card-caption-title {
-    font-size: 10px;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .card-caption-info { 
+    font-size: 14px;
+    text-align: center;
   }
 
   #products .card:nth-child(2n+1):nth-last-child(-n+2),
