@@ -293,11 +293,6 @@ PRODUCTS
   height: 70%;
 }
 
-#products .card:nth-child(3n+1):nth-last-child(-n+3),
-#products .card:nth-child(3n+1):nth-last-child(-n+3)~div {
-  margin-bottom: 0;
-}
-
 /*--------------------------------
  CAREER
 ---------------------------------*/
@@ -611,11 +606,6 @@ PRODUCTS
   .card-caption-info { 
     font-size: 14px;
     text-align: center;
-  }
-
-  #products .card:nth-child(2n+1):nth-last-child(-n+2),
-  #products .card:nth-child(2n+1):nth-last-child(-n+2)~div {
-    margin-bottom: 0;
   }
 
   #products .card {
