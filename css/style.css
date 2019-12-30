@@ -321,6 +321,11 @@ PRODUCTS
   flex-basis: 37%;
 }
 
+#feature .section-content {
+  align-items: center;
+  text-align: center;
+}
+
 /*--------------------------------
  ABOUT
 ---------------------------------*/
